@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.menu {
+    display: flex;
+    gap: 72px;
+    font-size: 1.25rem;
+    list-style-type: none;
+}
+
+.menu li {
+    border-bottom: 4px solid transparent;
+    transition: border-color 0.25s;
+}
+
+.menu li:hover {
+    border-color: var(--primary-color);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.img-bg{
+    display: flex;
+    width: 100%;
+}
+
+.button-back{
+    padding: 2%;
+    font-size: 48px;
+    color: blueviolet;
+}
+
+/* Sobre mim*/
+
+.sobre-descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+    justify-content: flex-end;
+    background-color: blueviolet;
+    padding: 2%;
+}
+
+.sobre-titulo{
+    font-size: 48px;
+    color: var(--primary-color);
+}
+
+.descricao-texto-inicio{
+    display: flex;
+    justify-content: center;
+}
+
+.descricao-titulo{
+    font-size: 35px;
+}
+
+.descricao-texto{
+    display: flex;
+    font-size: 30px;
+    width: 60%;
+    line-height: 100%;
+    
+}
+
+
+/* Formação*/
+
+.formacao-descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+    justify-content: flex-end;
+    background-color: blueviolet;
+    padding: 2%;
+}
+
+.formacao-texto-inicio{
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
+}
+
+.formacao-texto{
+    display: flex;
+    font-size: 26px;
+    width: 60%;
+    line-height: 100%;
+    border: 1px solid black;
+    padding: 2%;
+    justify-content: center;
+}
+
+
+/* Portfolio */
+
+.portfolio-descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+    justify-content: flex-end;
+    background-color: blueviolet;
+    padding: 2%;
+}
+
+.portifolio-texto-inicio{
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
+}
+
+.portfolio-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    display: flex;
+    padding: 1%;
+    justify-content: center;
+}
+
+.card-calcula {
+    width: 300px;
+    height: 200px;
+}
+
+
+/* Contato */
+
+.contato-descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+    justify-content: flex-end;
+    background-color: blueviolet;
+    padding: 2%;
+}
+
+.contato-texto-inicio{
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
+}
+
+.button-contato{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+
+.form-contato{
+    display: flex;
+    flex-direction: column;
+}
+
+.name-contato{
+    width: 50%;
+    height: 50%;
+    margin: 1%;
+}
+
+.name{
+    width: 300px;
+    height: 20px;
+}
+
+.email{
+    width: 350px;
+    height: 20px;
+}
+
+.msg{
+    width: 400px;
+    height: 100px;
+}
+
+
+
